@@ -4,17 +4,17 @@ import NavLink from 'react-router-dom';
 import * as ROUTES from '../../constants/routes';
 
 const Navigation = () => {
-    return (
-      <div className="rd-navbar-group rd-navbar-search-wrap">
-        <div className="rd-navbar-panel">
-          <button data-custom-toggle=".rd-navbar-nav-wrap" 
+  return (
+    <div className="rd-navbar-group rd-navbar-search-wrap">
+      <div className="rd-navbar-panel">
+        <button data-custom-toggle=".rd-navbar-nav-wrap" 
           data-custom-toggle-disable-on-blur="true" 
           className="rd-navbar-toggle"><span></span>
-          </button>
+        </button>
   
-          <a href="#" 
+        <a href="index.php" 
           className="rd-navbar-brand brand">
-          </a>
+        </a>
         </div>
   
         <div className="rd-navbar-nav-wrap">
