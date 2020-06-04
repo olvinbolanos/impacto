@@ -12,9 +12,7 @@ const Navigation = () => {
           data-custom-toggle-disable-on-blur="true" 
           className="rd-navbar-toggle"><span></span>
         </button>
-  
-        <NavLink to={ROUTES.HOME} component={ Home } />
-        </div>
+      </div>
   
         <div className="rd-navbar-nav-wrap">
           <div className="rd-navbar-nav-inner">
