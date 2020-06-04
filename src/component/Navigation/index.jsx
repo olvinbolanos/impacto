@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
-import NavLink from 'react-router-dom';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import Home from '../Home';
 
 import * as ROUTES from '../../constants/routes';
 
@@ -12,9 +13,7 @@ const Navigation = () => {
           className="rd-navbar-toggle"><span></span>
         </button>
   
-        <a href="index.php" 
-          className="rd-navbar-brand brand">
-        </a>
+        <NavLink to={ROUTES.HOME} component={ Home } />
         </div>
   
         <div className="rd-navbar-nav-wrap">
@@ -26,10 +25,18 @@ const Navigation = () => {
               </button>
             </div>
             <ul className="rd-navbar-nav">
-              <li className="active"> <a href="#">Home</a></li>
-              <li> <a href="about-us.php">About Us</a></li>
-              <li> <a href="services.php">Services</a></li>
-              <li ><a href="blog.php">Blog</a></li> 
+              <li className="active"> 
+                <NavLink to={ROUTES.HOME}>Home</NavLink>
+              </li>
+              <li> 
+                <NavLink to={ROUTES.REGISTER}>Register</NavLink> 
+              </li>
+              <li> 
+                <NavLink to={ROUTES.SERVICES}>Services</NavLink>
+              </li>
+              <li> 
+                <NavLink to={ROUTES.QUALIFICATIONS}>Qualifications</NavLink>
+              </li> 
             </ul> 
           </div>
         </div>

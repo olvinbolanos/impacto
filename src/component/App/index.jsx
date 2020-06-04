@@ -4,6 +4,7 @@ import Services from '../Services';
 import Register from '../Register';
 import HomePage from '../Home';
 import Navigation from '../Navigation';
+import Qualifications from '../Qualifications';
 // import Header from './Header';
 import logo from '../../logo.svg';
 
@@ -25,6 +26,7 @@ class App extends Component {
         <Route exact path={ROUTES.HOME} component={ HomePage } /> 
         <Route exact path={ROUTES.SERVICES} component={ Services } />
         <Route exact path={ROUTES.REGISTER} component={ Register } /> 
+        <Route exact path={ROUTES.QUALIFICATIONS} component={ Qualifications } />
         <Route component={ my404 } />
       </Switch>
       </main>
