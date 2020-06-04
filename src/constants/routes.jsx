@@ -1,4 +1,5 @@
-export const Landing = '/';
-export const Register = './Register';
-export const Home = './Home';
-export const Reviews = './Reviews';
+export const LANDING = '/';
+export const REGISTER = '/Register';
+export const HOME = '/Home';
+export const REVIEWS = '/Reviews';
+export const SERVICES = '/Services';
