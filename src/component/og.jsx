@@ -46,14 +46,20 @@ export default class NavBar extends Component {
                 </div>
                 <div class="rd-navbar-nav-wrap active">
                   <div class="rd-navbar-nav-inner">
-                
-                    <ul class="rd-navbar-nav">
-                      <li> <a href="index.php">Home</a></li>
-                      <li> <a href="about-us.php">About Us</a></li>
-                      <li class="active"> <a href="services.php">Services</a></li>
-
-                       <li> <a href="contact-us.php">Contact Us</a></li>
-                    </ul>
+                    <ul className="rd-navbar-nav">
+                      <li className="active"> 
+                        <NavLink to={ROUTES.HOME}>Home</NavLink>
+                      </li>
+                      <li> 
+                        <NavLink to={ROUTES.REGISTER}>Register</NavLink> 
+                      </li>
+                      <li> 
+                        <NavLink to={ROUTES.SERVICES}>Services</NavLink>
+                      </li>
+                      <li> 
+                        <NavLink to={ROUTES.QUALIFICATIONS}>Qualifications</NavLink>
+                      </li> 
+                    </ul> 
                   </div>
                 </div>
               </div>

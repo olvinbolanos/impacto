@@ -3,7 +3,8 @@ import { Route, Switch } from 'react-router-dom';
 import Services from '../Services';
 import Register from '../Register';
 import HomePage from '../Home';
-import NavBar from '../og';
+import NavBarFinder from '../NavBarFinder';
+import Navigation from '../Navigation';
 import Qualifications from '../Qualifications';
 // import Header from './Header';
 import logo from '../../logo.svg';
@@ -19,7 +20,7 @@ class App extends Component {
     return (
       <div>
         <main>
-        {/* <NavBar /> */}
+        <Navigation />
       {/* <Header /> */}
       {/* <img src={logo} className="App-logo" alt="logo" /> */}
       <Switch>
