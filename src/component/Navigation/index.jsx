@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import Home from '../Home';
 
 import * as ROUTES from '../../constants/routes';
 
@@ -10,7 +9,9 @@ class Navigation extends Component  {
     this.state = {
       width: '60px',
       display: 'none',
-      closed: 'none'
+      closed: 'none',
+      index: 5,
+      top: 0
     };
   }
 
@@ -18,7 +19,6 @@ class Navigation extends Component  {
     this.setState({
       display: 'block',
     });
-
   }
 
   closeNav = () => {
@@ -28,17 +28,18 @@ class Navigation extends Component  {
   }
 
   render() {
+    const { top, display, index } = this.state;
   return (
     <>
-      <nav className="w3-sidebar w3-black w3-animate-left w3-xxlarge" style={{display: this.state.display}} onClick={this.closeNav} id="mySidebar">
+      <nav className="w3-sidebar w3-black w3-animate-left w3-xxlarge" style={{display: display, zIndex: index, top: top}} onClick={this.closeNav} id="mySidebar">
         <a href="javascript:void(0)" onclick={this.closeNav} className="w3-button w3-black w3-xxxlarge w3-display-topright" style={divStyleATag}>
           <i className="fa fa-remove"></i>
         </a>
         <div className="w3-bar-block w3-center">
-        <NavLink to={ROUTES.HOME} className="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick={this.closeNav}>Home</NavLink>
-        <NavLink to={ROUTES.REGISTER} className="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick={this.closeNav}>Portfolio</NavLink>
-        <NavLink to={ROUTES.SERVICES} className="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick={this.closeNav}>About</NavLink>
-        <NavLink to={ROUTES.QUALIFICATIONS} className="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick={this.closeNav}>Contact</NavLink>
+          <NavLink to={ROUTES.HOME} className="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick={this.closeNav}>Home</NavLink>
+          <NavLink to={ROUTES.REGISTER} className="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick={this.closeNav}>Portfolio</NavLink>
+          <NavLink to={ROUTES.SERVICES} className="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick={this.closeNav}>About</NavLink>
+          <NavLink to={ROUTES.QUALIFICATIONS} className="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick={this.closeNav}>Contact</NavLink>
         </div>
       </nav>
       {/* Menu icon to open sidebar  */}
@@ -50,22 +51,18 @@ class Navigation extends Component  {
   
   export default Navigation;
 
-  const divOpenNav = {
-    width: "auto",
-    marginRight: "10px",
-  };
-
   const divStyleNav1 = {
     display: "none",
     paddingTop: "150px",
-    marginRight:"0px",
+    marginRight:"10px",
     zIndex:"2",
     overflow: 'none',
   }
 
   const divStyleATag = {
     padding: "0 5px",
-    
+    marginTop: "0px",
+    zIndex: "3",
   }
 
 

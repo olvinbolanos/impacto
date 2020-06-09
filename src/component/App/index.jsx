@@ -9,6 +9,8 @@ import Qualifications from '../Qualifications';
 // import Header from './Header';
 import logo from '../../logo.svg';
 
+
+
 import * as ROUTES from '../../constants/routes';
 
 const my404 = () => {
@@ -21,7 +23,7 @@ class App extends Component {
       <div>
         <main>
         <Navigation />
-      {/* <Header /> */}
+        <NavBarFinder />
       {/* <img src={logo} className="App-logo" alt="logo" /> */}
       <Switch>
         <Route exact path={ROUTES.HOME} component={ HomePage } /> 
