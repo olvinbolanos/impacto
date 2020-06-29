@@ -4,9 +4,8 @@ import {
   Wrapper
 } from './style'
 
-// import {
-//   quoteOpen
-// } from '../../assets/quoteOpen.svg'
+import FollowUp from '../Icons/followUp';
+
 {/* <quoteOpenIcon width="40px" height="40px" /> */}
 class Home extends Component {
   render() {
@@ -111,6 +110,10 @@ class Home extends Component {
         </div>
       <a href="#" name="Go To Top of Page" id="ui-to-top" class="ui-to-top fa fa-angle-up active"></a>
       </section>
+
+
+      <FollowUp />
+
     </div>
     )
   }

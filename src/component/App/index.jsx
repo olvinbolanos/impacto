@@ -8,6 +8,7 @@ import Navigation from '../Navigation';
 import Qualifications from '../Qualifications';
 // import Header from './Header';
 import logo from '../../logo.svg';
+import "../StyleSheets/style.css";
 
 
 
