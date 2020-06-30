@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url("../fonts/glyphicons-halflings-regular.eot");
+    src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("../fonts/fontawesome-webfont.eot?v=4.5.0");
+    src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.5.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.5.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.5.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/MaterialIcons-Regular.eot);
+    /* For IE6-8 */
+    src: local("Material Icons"), local("MaterialIcons-Regular"), url(../fonts/MaterialIcons-Regular.woff2) format("woff2"), url(../fonts/MaterialIcons-Regular.woff) format("woff"), url(../fonts/MaterialIcons-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Material Design Icons";
+    src: url("../fonts/materialdesignicons-webfont.eot?v=1.4.57");
+    src: url("../fonts/materialdesignicons-webfont.eot?#iefix&v=1.4.57") format("embedded-opentype"), url("../fonts/materialdesignicons-webfont.woff2?v=1.4.57") format("woff2"), url("../fonts/materialdesignicons-webfont.woff?v=1.4.57") format("woff"), url("../fonts/materialdesignicons-webfont.ttf?v=1.4.57") format("truetype"), url("../fonts/materialdesignicons-webfont.svg?v=1.4.57#materialdesigniconsregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "fl-flat-icons-set-2";
+    src: url("../fonts/fl-flat-icons-set-2.eot");
+    src: url("../fonts/fl-flat-icons-set-2.eot#iefix") format("embedded-opentype"), url("../fonts/fl-flat-icons-set-2.woff") format("woff"), url("../fonts/fl-flat-icons-set-2.ttf") format("truetype"), url("../fonts/fl-flat-icons-set-2.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "fl-bigmug-line";
+    src: url("../fonts/fl-bigmug-line.eot");
+    src: url("../fonts/fl-bigmug-line.eot#iefix") format("embedded-opentype"), url("../fonts/fl-bigmug-line.woff") format("woff"), url("../fonts/fl-bigmug-line.ttf") format("truetype"), url("../fonts/fl-bigmug-line.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "fl-36-slim-icons";
+    src: url("../fonts/36-slim-icons.eot");
+    src: url("../fonts/36-slim-icons.eot#iefix") format("embedded-opentype"), url("../fonts/36-slim-icons.woff") format("woff"), url("../fonts/36-slim-icons.ttf") format("truetype"), url("../fonts/36-slim-icons.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "fl-puppets";
+    src: url("../fonts/fl-puppets.eot");
+    src: url("../fonts/fl-puppets.eot#iefix") format("embedded-opentype"), url("../fonts/fl-puppets.woff") format("woff"), url("../fonts/fl-puppets.ttf") format("truetype"), url("../fonts/fl-puppets.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fl-puppets-chart6:before {
+    content: "\e00c";
+}
+
+.fl-puppets-maths26:before {
+    content: "\e030";
+}
+
+.fl-puppets-users30:before {
+    content: "\e061";
+}
+
+.font-size-big {
+    font-size: 16px;
+}
+
+.owl-width {
+    color: red;
+}
+
