@@ -7948,7 +7948,7 @@ html.lt-ie-10 .range-narrow > * + [class *='cell'],
         -webkit-flex-basis: 14.28571%;
         -ms-flex-preferred-size: 14.28571%;
         flex-basis: 14.28571%;
-        max-width:14.28571%
+        max-width:14.28571%;
     }
 
     .range-7.range > .cell-sm-preffix-1 {
@@ -10048,7 +10048,7 @@ address {
 .snackbars-right {
     display: inline-block;
     float: right;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .snackbars-right:hover {
@@ -10871,10 +10871,14 @@ html .btn-cello .badge {
 
 @font-face {
     font-family:'FontAwesome';
-    src:url(../fonts/fontawesome-webfont.eot?v=4.5.0);
-    src:url("../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0") format("embedded-opentype"), url(../fonts/fontawesome-webfont.woff2?v=4.5.0) format("woff2"), url(../fonts/fontawesome-webfont.woff?v=4.5.0) format("woff"), url(../fonts/fontawesome-webfont.ttf?v=4.5.0) format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular") format("svg");
-    font-weight:400;
-    font-style:normal;
+    src:url(../../../node_modules/material-design-icons-iconfont/dist/fonts/fontawesome-webfont.eot?v=4.5.0);
+    src:url("../../../node_modules/material-design-icons-iconfont/dist/fonts/fontawesome-webfont.eot?#iefix&v=4.5.0") format("embedded-opentype"), 
+    url(../../../node_modules/material-design-icons-iconfont/dist/fonts/fontawesome-webfont.woff2?v=4.5.0) format("woff2"), 
+    url(../../../node_modules/material-design-icons-iconfont/dist/fonts/fontawesome-webfont.woff?v=4.5.0) format("woff"), 
+    url(../../../node_modules/material-design-icons-iconfont/dist/fonts/fontawesome-webfont.ttf?v=4.5.0) format("truetype"), 
+    url("../../../node_modules/material-design-icons-iconfont/dist/fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular") format("svg");
+    font-weight: 400;
+    font-style: normal;
 }
 
 .fa {
@@ -13503,11 +13507,14 @@ html .btn-cello .badge {
     font-family:'Material Icons';
     font-style:normal;
     font-weight:400;
-    src:url(../fonts/MaterialIcons-Regular.eot);
-    src:local("Material Icons"), local("MaterialIcons-Regular"), url(../fonts/MaterialIcons-Regular.woff2) format("woff2"), url(../fonts/MaterialIcons-Regular.woff) format("woff"), url(../fonts/MaterialIcons-Regular.ttf) format("truetype")
+    src:url('../../../node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.eot');
+    src:local('Material Icons'), local('MaterialIcons-Regular'), 
+    url('../../../node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.woff2') format('woff2'), 
+    url('../../../node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.woff') format('woff'), 
+    url('../../../node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.ttf') format('truetype')
 }
 
-.material-icons-ico, [class *="material-icons-"]:before {
+.material-icons-ico, [class *='material-icons-']:before {
     font-family:'Material Icons';
     font-weight:400;
     font-style:normal;
@@ -22574,11 +22581,11 @@ html .btn-cello .badge {
 
 @font-face {
     font-family:"fl-flat-icons-set-2";
-    src:url(../fonts/fl-flat-icons-set-2.eot);
-    src:url("../fonts/fl-flat-icons-set-2.eot#iefix") format("embedded-opentype"), 
-    url(../fonts/fl-flat-icons-set-2.woff) format("woff"), 
-    url(../fonts/fl-flat-icons-set-2.ttf) format("truetype"), 
-    url(../fonts/fl-flat-icons-set-2.svg) format("svg");
+    src:url(../../../node_modules/material-design-icons-iconfont/dist/fonts/fl-flat-icons-set-2.eot);
+    src:url("../../../node_modules/material-design-icons-iconfont/dist/fonts/fl-flat-icons-set-2.eot#iefix") format("embedded-opentype"), 
+    url(../../../node_modules/material-design-icons-iconfont/dist/fonts/fl-flat-icons-set-2.woff) format("woff"), 
+    url(../../../node_modules/material-design-icons-iconfont/dist/fonts/fl-flat-icons-set-2.ttf) format("truetype"), 
+    url(../../../node_modules/material-design-icons-iconfont/dist/fonts/fl-flat-icons-set-2.svg) format("svg");
     font-weight:400;
     font-style:normal
 }
@@ -22708,11 +22715,11 @@ html .btn-cello .badge {
 
 @font-face {
     font-family:"fl-bigmug-line";
-    src:url(../fonts/fl-bigmug-line.eot);
-    src:url("../fonts/fl-bigmug-line.eot#iefix") format("embedded-opentype"), 
-    url(../fonts/fl-bigmug-line.woff) format("woff"), 
-    url(../fonts/fl-bigmug-line.ttf) format("truetype"), 
-    url(../fonts/fl-bigmug-line.svg) format("svg");
+    src:url(../../../node_modules/material-design-icons-iconfont/dist/fonts/fl-bigmug-line.eot);
+    src:url("../../../node_modules/material-design-icons-iconfont/dist/fonts/fl-bigmug-line.eot#iefix") format("embedded-opentype"), 
+    url(../../../node_modules/material-design-icons-iconfont/dist/fonts/fl-bigmug-line.woff) format("woff"), 
+    url(../../../node_modules/material-design-icons-iconfont/dist/fonts/fl-bigmug-line.ttf) format("truetype"), 
+    url(../../../node_modules/material-design-icons-iconfont/dist/fonts/fl-bigmug-line.svg) format("svg");
     font-weight:400;
     font-style:normal;
 }
@@ -34605,8 +34612,11 @@ dt {
 
 @font-face {
     font-family:"fl-puppets";
-    src:url(../fonts/fl-puppets.eot);
-    src:url("../fonts/fl-puppets.eot#iefix") format("embedded-opentype"), url(../fonts/fl-puppets.woff) format("woff"), url(../fonts/fl-puppets.ttf) format("truetype"), url(../fonts/fl-puppets.svg) format("svg");
+    src:url(../../../node_modules/material-design-icons-iconfont/dist/fonts/fl-puppets.eot);
+    src:url("../../../node_modules/material-design-icons-iconfont/dist/fonts/fl-puppets.eot#iefix") format("embedded-opentype"), 
+    url(../../../node_modules/material-design-icons-iconfont/dist/fonts/fl-puppets.woff) format("woff"), 
+    url(../../../node_modules/material-design-icons-iconfont/dist/fonts/fl-puppets.ttf) format("truetype"), 
+    url(../../../node_modules/material-design-icons-iconfont/dist/fonts/fl-puppets.svg) format("svg");
     font-weight:400;
     font-style:normal
 }
